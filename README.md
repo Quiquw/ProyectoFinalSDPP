@@ -1,4 +1,4 @@
-# ProyectoFinalSDPP
+# ProyectoFinalSDPP Salvador Alfaro
 Repositorio del Proyecto Final de Sistemas Distribuidos y Programación en Paralelo (Salvador Alfaro)
 
 # Instalación:
