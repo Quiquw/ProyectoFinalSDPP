@@ -41,7 +41,7 @@ const IceCreamCard = ({ iceCream, setIceCream, iceCreams, setListUpdate }) => {
   return (
     <>
       {iceCreams.map((iceCream) => (
-        <div class="container" style={{ textAlign: "center", width: "25rem", float: "left", marginblock: "10cm", height:"30rem" }}>
+        <div class="container" style={{ textAlign: "center", width: "25rem", float: "left", marginblock: "10cm", height:"30rem", marginBottom: "1cm" }}>
           <div><p></p></div>
           <div className="card">
           <img class="card-img-top" style={{height: "280px"}} src={iceCream.Url} alt={`Imagen del Helado de:`+iceCream.Sabor}/>

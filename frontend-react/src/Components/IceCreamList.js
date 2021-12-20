@@ -49,7 +49,7 @@ const IceCreamList = ({ iceCream, setIceCream, iceCreams, setListUpdate }) => {
     <> <table className="table">
     <thead>
       <tr>
-        <th>ID</th>
+   {/*      <th>ID</th> */}
         <th>Sabor</th>
         <th>Precio</th>
         <th>Unidades</th>
@@ -61,7 +61,7 @@ const IceCreamList = ({ iceCream, setIceCream, iceCreams, setListUpdate }) => {
     <tbody>
       {iceCreams.map((iceCream) => (
         <tr key={iceCream.ID}>
-          <td>{iceCream.ID}</td>
+          {/* <td>{iceCream.ID}</td> */}
           <td>{iceCream.Sabor}</td>
           <td>{iceCream.Precio}</td>
           <td>{iceCream.UnidadesDisponibles}</td>
