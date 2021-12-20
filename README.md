@@ -25,6 +25,7 @@ Git
 5.-Abrir los contenidos de la carpeta “front-react” en Visual Studio Code
 
 6.-Abrir una terminal en el proyecto y ejecutar los siguientes comandos:
+
     a) npm install (Tarda un poco ya que instala los módulos que usa)
     b) npm start
     
