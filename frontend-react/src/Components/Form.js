@@ -56,19 +56,20 @@ const Form = ({ iceCream, setIceCream }) => {
             <div className="mb-3">
                 <label htmlFor="Precio">Precio</label>
                 <input
-               //     value={Precio} Aparece 0 por default
+                    value={Precio}
                     name="Precio"
                     onChange={handleChange}
                     type="number"
                     step="any"
                     id="Precio"
                     className="form-control"
+
                 ></input>
             </div>
             <div className="mb-3">
                 <label htmlFor="UnidadesDisponibles">Unidades Disponibles</label>
                 <input
-               //     value={UnidadesDisponibles} Aparece 0 por default
+                    value={UnidadesDisponibles}
                     name="UnidadesDisponibles"
                     onChange={handleChange}
                     type="number"

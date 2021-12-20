@@ -40,7 +40,7 @@ const IceCreamList = ({ iceCream, setIceCream, iceCreams, setListUpdate }) => {
       Sabor: "",
       Precio: 0,
       UnidadesDisponibles: 0,
-      Url: ""
+      Url: "",
     });
   };
 
